@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Regression Test Suite" verbose="4">
+
+	<test name="LoinPageTest">
+
+		<classes>
+			<class name="com.qa.opencart.test.LoginPageTest" />
+		</classes>
+
+	</test>
+	
+	<test name="AccountsPageTest">
+
+		<classes>
+			<class name="com.qa.opencart.test.AccountsPageTest" />
+		</classes>
+
+	</test>
+
+
+
+
+</suite>
