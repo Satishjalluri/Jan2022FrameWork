@@ -13,7 +13,7 @@ public class LoginPage {
 	private By password = By.id("input-password");
 	private By loginBtn = By.xpath("//input[@value='Login']");
 	private By forgotPwd = By.linkText("Forgotten Password");
-
+	private By forgotPwd2 = By.linkText("Forgotten Password2");
 	
 	// 2. public page constructor
 
