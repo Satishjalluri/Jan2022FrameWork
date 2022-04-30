@@ -13,7 +13,8 @@ public class LoginPage {
 	private By password = By.id("input-password");
 	private By loginBtn = By.xpath("//input[@value='Login']");
 	private By forgotPwd = By.linkText("Forgotten Password");
-
+	private By myrepo = By.linkText("My repo");
+	
 	// 2. public page constructor
 
 	public LoginPage(WebDriver driver) {
