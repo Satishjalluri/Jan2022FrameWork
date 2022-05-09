@@ -24,6 +24,7 @@ public class DriverFactory {
 	
 	public WebDriver init_driver(String browserName) {
 		
+		//String browserName = prop.getProperty("browser").trim();
 		System.out.println("Browser name is : " + browserName);
 		
 		if(browserName.equalsIgnoreCase("chrome")) {
