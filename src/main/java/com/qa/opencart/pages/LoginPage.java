@@ -15,7 +15,7 @@ public class LoginPage {
 	private By forgotPwd = By.linkText("Forgotten Password");
 	private By forgotPwd2 = By.linkText("Forgotten Password2");
 	
-	private By logOut = By.linkText("Logout");
+	private By logOut = By.linkText("Logout11");
 	
 
 	// 2. public page constructor
